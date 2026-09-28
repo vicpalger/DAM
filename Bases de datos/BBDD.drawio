@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" pages="3">
+<mxfile host="app.diagrams.net" pages="4">
   <diagram name="Página-1" id="fOp2SqtBcYIUUXZJKBOl">
-    <mxGraphModel dx="1414" dy="781" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1414" dy="747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -349,6 +349,82 @@
         </mxCell>
         <mxCell id="YX0uiM3kYFfpXTYIk5oi-21" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillStyle=dots;strokeColor=default;gradientColor=none;perimeterSpacing=2;fillColor=none;" value="Telefono" vertex="1">
           <mxGeometry height="30" width="65" x="75" y="180" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="IBtlViAwMVvOM5f4WDoH" name="Página-4">
+    <mxGraphModel dx="1635" dy="427" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="97mzuAqU2p9RNJdt1tpC-2" parent="1" style="text;whiteSpace=wrap;" value="Una empresa de montaje de hardware gestiona la configuración de sus ordenadores. Un equipo_informático se constituye mediante el ensamblaje de varios componentes de hardware: Procesador: Todo equipo requiere exactamente 1 procesador, del que se guarda su número de serie (CP), modelo y velocidad en GHz. Placa_base: Todo equipo incorpora exactamente 1 placa base, identificada por su número de serie (CP) y factor de forma (ATX, Micro-ATX, etc.). Módulo_RAM: Un equipo incluye uno o varios módulos de memoria RAM (mínimo 1, máximo 4). De cada módulo se registra su identificador (CP), capacidad en GB y tecnología (DDR4, DDR5)." vertex="1">
+          <mxGeometry height="120" width="510" x="-520" as="geometry" />
+        </mxCell>
+        <mxCell id="97mzuAqU2p9RNJdt1tpC-26" edge="1" parent="1" source="97mzuAqU2p9RNJdt1tpC-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" target="97mzuAqU2p9RNJdt1tpC-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="97mzuAqU2p9RNJdt1tpC-3" parent="1" style="whiteSpace=wrap;html=1;align=center;" value="CPU" vertex="1">
+          <mxGeometry height="40" width="100" x="180" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="97mzuAqU2p9RNJdt1tpC-27" edge="1" parent="1" source="97mzuAqU2p9RNJdt1tpC-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" target="97mzuAqU2p9RNJdt1tpC-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="97mzuAqU2p9RNJdt1tpC-4" parent="1" style="whiteSpace=wrap;html=1;align=center;" value="Placa Base" vertex="1">
+          <mxGeometry height="40" width="100" x="560" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="97mzuAqU2p9RNJdt1tpC-25" edge="1" parent="1" source="97mzuAqU2p9RNJdt1tpC-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="97mzuAqU2p9RNJdt1tpC-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="97mzuAqU2p9RNJdt1tpC-5" parent="1" style="whiteSpace=wrap;html=1;align=center;" value="RAM" vertex="1">
+          <mxGeometry height="40" width="100" x="380" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="97mzuAqU2p9RNJdt1tpC-19" edge="1" parent="1" source="97mzuAqU2p9RNJdt1tpC-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="97mzuAqU2p9RNJdt1tpC-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="97mzuAqU2p9RNJdt1tpC-6" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=20;" value="CP" vertex="1">
+          <mxGeometry height="40" width="100" x="20" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="97mzuAqU2p9RNJdt1tpC-20" edge="1" parent="1" source="97mzuAqU2p9RNJdt1tpC-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="97mzuAqU2p9RNJdt1tpC-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="99.85714285714289" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="97mzuAqU2p9RNJdt1tpC-8" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=20;" value="GHz" vertex="1">
+          <mxGeometry height="40" width="100" x="20" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="97mzuAqU2p9RNJdt1tpC-9" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=20;" value="CP" vertex="1">
+          <mxGeometry height="40" width="100" x="270" as="geometry" />
+        </mxCell>
+        <mxCell id="97mzuAqU2p9RNJdt1tpC-17" edge="1" parent="1" source="97mzuAqU2p9RNJdt1tpC-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="97mzuAqU2p9RNJdt1tpC-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="97mzuAqU2p9RNJdt1tpC-10" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=20;" value="GB" vertex="1">
+          <mxGeometry height="40" width="100" x="380" as="geometry" />
+        </mxCell>
+        <mxCell id="97mzuAqU2p9RNJdt1tpC-16" edge="1" parent="1" source="97mzuAqU2p9RNJdt1tpC-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="97mzuAqU2p9RNJdt1tpC-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="97mzuAqU2p9RNJdt1tpC-11" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=20;" value="Tipo" vertex="1">
+          <mxGeometry height="40" width="100" x="490" as="geometry" />
+        </mxCell>
+        <mxCell id="97mzuAqU2p9RNJdt1tpC-14" edge="1" parent="1" source="97mzuAqU2p9RNJdt1tpC-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="97mzuAqU2p9RNJdt1tpC-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="97mzuAqU2p9RNJdt1tpC-12" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=20;" value="CP" vertex="1">
+          <mxGeometry height="40" width="100" x="720" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="97mzuAqU2p9RNJdt1tpC-15" edge="1" parent="1" source="97mzuAqU2p9RNJdt1tpC-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="97mzuAqU2p9RNJdt1tpC-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="97mzuAqU2p9RNJdt1tpC-13" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=20;" value="Formato" vertex="1">
+          <mxGeometry height="40" width="100" x="720" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="97mzuAqU2p9RNJdt1tpC-18" edge="1" parent="1" source="97mzuAqU2p9RNJdt1tpC-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="97mzuAqU2p9RNJdt1tpC-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="97mzuAqU2p9RNJdt1tpC-22" parent="1" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" value="PC" vertex="1">
+          <mxGeometry height="60" width="120" x="370" y="200" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
