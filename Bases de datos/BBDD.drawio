@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" pages="4">
+<mxfile host="app.diagrams.net" pages="5">
   <diagram name="Página-1" id="fOp2SqtBcYIUUXZJKBOl">
     <mxGraphModel dx="1414" dy="747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -354,7 +354,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="IBtlViAwMVvOM5f4WDoH" name="Página-4">
-    <mxGraphModel dx="1635" dy="427" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -425,6 +425,71 @@
         </mxCell>
         <mxCell id="97mzuAqU2p9RNJdt1tpC-22" parent="1" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" value="PC" vertex="1">
           <mxGeometry height="60" width="120" x="370" y="200" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="AEjI7ft8DAfRSUP-Cpgp" name="Página-5">
+    <mxGraphModel dx="393" dy="208" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="38CozG1oihAYsqMk30ay-2" parent="1" style="text;whiteSpace=wrap;" value="Una plataforma de contenidos audiovisuales organiza su catálogo multimedia. De todo CONTENIDO registrado se almacena un identificador único de contenido (clave primaria), el título y el año de estreno.El catálogo se divide en tres categorías exclusivas con atributos particulares: PELÍCULA: Se registra el nombre del director y si incluye escenas post-créditos (sí/no). SERIE: Se registra el número total de temporadas y si está finalizada o en emisión. DOCUMENTAL: Se registra la temática de investigación y la entidad o productora colaboradora. Construir el DER Extendido representando la jerarquía de entidades, señalando la entidad supertipo, las entidades subtipo, los atributos en cada nivel y las modalidades de participación" vertex="1">
+          <mxGeometry height="140" width="560" x="390" y="990" as="geometry" />
+        </mxCell>
+        <mxCell id="38CozG1oihAYsqMk30ay-3" parent="1" style="whiteSpace=wrap;html=1;align=center;" value="Peliculas" vertex="1">
+          <mxGeometry height="40" width="100" x="960" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="38CozG1oihAYsqMk30ay-4" parent="1" style="whiteSpace=wrap;html=1;align=center;" value="Serie" vertex="1">
+          <mxGeometry height="40" width="100" x="779" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="38CozG1oihAYsqMk30ay-5" parent="1" style="whiteSpace=wrap;html=1;align=center;" value="Documental" vertex="1">
+          <mxGeometry height="40" width="100" x="1141" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="38CozG1oihAYsqMk30ay-10" edge="1" parent="1" source="38CozG1oihAYsqMk30ay-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="38CozG1oihAYsqMk30ay-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="38CozG1oihAYsqMk30ay-6" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=20;" value="ID" vertex="1">
+          <mxGeometry height="40" width="100" x="960" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="38CozG1oihAYsqMk30ay-11" edge="1" parent="1" source="38CozG1oihAYsqMk30ay-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="38CozG1oihAYsqMk30ay-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="38CozG1oihAYsqMk30ay-7" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=20;" value="Director" vertex="1">
+          <mxGeometry height="40" width="100" x="1041" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="38CozG1oihAYsqMk30ay-9" edge="1" parent="1" source="38CozG1oihAYsqMk30ay-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="38CozG1oihAYsqMk30ay-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="38CozG1oihAYsqMk30ay-8" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=20;" value="Escena" vertex="1">
+          <mxGeometry height="40" width="100" x="879" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="38CozG1oihAYsqMk30ay-17" edge="1" parent="1" source="38CozG1oihAYsqMk30ay-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="38CozG1oihAYsqMk30ay-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="38CozG1oihAYsqMk30ay-12" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=20;" value="ID" vertex="1">
+          <mxGeometry height="40" width="100" x="600" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="38CozG1oihAYsqMk30ay-15" edge="1" parent="1" source="38CozG1oihAYsqMk30ay-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="38CozG1oihAYsqMk30ay-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="38CozG1oihAYsqMk30ay-13" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=20;" value="Episodios" vertex="1">
+          <mxGeometry height="40" width="100" x="679" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="38CozG1oihAYsqMk30ay-16" edge="1" parent="1" source="38CozG1oihAYsqMk30ay-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="38CozG1oihAYsqMk30ay-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="38CozG1oihAYsqMk30ay-14" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=20;" value="Estado" vertex="1">
+          <mxGeometry height="40" width="100" x="679" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="38CozG1oihAYsqMk30ay-18" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=20;" value="Productor" vertex="1">
+          <mxGeometry height="40" width="100" x="1241" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="38CozG1oihAYsqMk30ay-19" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=20;" value="Director" vertex="1">
+          <mxGeometry height="40" width="100" x="1341" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="38CozG1oihAYsqMk30ay-20" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=20;" value="Escena" vertex="1">
+          <mxGeometry height="40" width="100" x="1241" y="250" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
