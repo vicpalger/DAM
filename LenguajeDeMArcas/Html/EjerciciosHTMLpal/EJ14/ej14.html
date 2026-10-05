@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Notificar incidencia</title>
+</head>
+
+<body>
+
+    <h1>Notificar incidencia</h1>
+
+    <form action="procesar-incidencia.php" method="post">
+        <fieldset>
+            <legend>Datos de la empleada</legend>
+
+            <label for="usuario">Usuario:</label>
+            <input type="text" id="usuario" name="usuario">
+            <br><br>
+
+            <label for="departamento">Departamento:</label>
+            <select id="departamento" name="departamento">
+                <option value="informatica">Informática</option>
+                <option value="marketing">Marketing</option>
+                <option value="ventas">Ventas</option>
+            </select>
+            <br><br>
+            <label for="descripcion">Descripción de la incidencia:</label>
+            <br>
+            <textarea id="descripcion" name="descripcion" rows="3" cols="40"></textarea>
+            <br>
+            <label for="Contraseña">Contraseña:</label>
+            <input type="password" name="Contraseña" id="">
+
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Botones Resetear y  Envio</legend>
+            <input type="reset" value="Resetear">
+            <input type="submit" value="Enviar">
+
+        </fieldset>
+
+    </form>
+
+</body>
+
+</html>

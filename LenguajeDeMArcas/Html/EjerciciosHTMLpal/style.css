@@ -1,3 +1,186 @@
-.header{
-    color:aliceblue ;
+
+:root {
+    --color-primary-50: #eef2ff;
+    --color-primary-100: #e0e7ff;
+    --color-primary-500: #6366f1;
+    --color-primary-600: #4f46e5;
+    --color-primary-700: #4338ca;
+
+    --color-gray-50: #f8fafc;
+    --color-gray-100: #f1f5f9;
+    --color-gray-200: #e2e8f0;
+    --color-gray-400: #94a3b8;
+    --color-gray-500: #64748b;
+    --color-gray-600: #475569;
+    --color-gray-800: #1e293b;
+    --color-gray-900: #0f172a;
+
+    --color-white: #ffffff;
 }
+
+
+/* =========================
+   GENERAL
+   ========================= */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 40px 20px;
+    min-height: 100vh;
+
+    background-color: var(--color-gray-50);
+    color: var(--color-gray-900);
+
+    font-family: Arial, sans-serif;
+}
+
+
+/* =========================
+   INFORMACIÓN DEL ALUMNO
+   ========================= */
+
+.nombre {
+    max-width: 700px;
+    margin: 0 auto 40px;
+
+    padding: 30px;
+
+    background-color: var(--color-white);
+
+    border: 1px solid var(--color-gray-200);
+    border-radius: 16px;
+
+    box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+
+    text-align: center;
+}
+
+
+/* Quitamos los espacios que generan los <br> */
+.nombre p {
+    margin: 8px 0;
+
+    color: var(--color-gray-600);
+
+    font-size: 18px;
+}
+
+
+/* El primer párrafo será el nombre */
+.nombre p:first-child {
+    margin-bottom: 15px;
+
+    color: var(--color-primary-700);
+
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+/* =========================
+   EJERCICIOS
+   ========================= */
+
+.ejercicios {
+    max-width: 900px;
+    margin: 0 auto;
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 16px;
+}
+
+
+/* =========================
+   BOTONES
+   ========================= */
+
+.boton {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    min-height: 65px;
+
+    padding: 15px;
+
+    background-color: var(--color-white);
+
+    border: 2px solid var(--color-primary-100);
+    border-radius: 12px;
+
+    color: var(--color-primary-700);
+
+    font-size: 17px;
+    font-weight: bold;
+
+    text-decoration: none;
+
+    transition: all 0.2s ease;
+}
+
+
+/* Cuando pasamos el ratón */
+.boton:hover {
+    background-color: var(--color-primary-500);
+
+    border-color: var(--color-primary-500);
+
+    color: var(--color-white);
+
+    transform: translateY(-3px);
+
+    box-shadow: 0 8px 20px rgba(99, 102, 241, 0.25);
+}
+
+
+/* Cuando hacemos click */
+.boton:active {
+    background-color: var(--color-primary-700);
+
+    transform: translateY(0);
+}
+
+
+/* =========================
+   RESPONSIVE
+   ========================= */
+
+/* Tablets */
+@media (max-width: 700px) {
+
+    .ejercicios {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+
+/* Móviles */
+@media (max-width: 450px) {
+
+    body {
+        padding: 25px 15px;
+    }
+
+    .nombre {
+        padding: 25px 15px;
+    }
+
+    .nombre p:first-child {
+        font-size: 25px;
+    }
+
+    .ejercicios {
+        grid-template-columns: 1fr;
+    }
+
+}
+
