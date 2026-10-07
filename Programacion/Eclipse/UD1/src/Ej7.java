@@ -9,6 +9,7 @@ public class Ej7 {
 		System.out.println("\t"+a+"-"+b+"="+(a-b));
 		System.out.println("\t"+a+"*"+b+"="+(a*b));
 		System.out.println("\t"+a+"/"+b+"="+(a/b));
+	
 		
 	}
 
