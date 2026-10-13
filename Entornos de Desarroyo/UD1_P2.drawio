@@ -1,62 +1,116 @@
-<mxfile host="Electron">
-  <diagram name="Página-1" id="Ab_yWxfXN6SA2hm5Vqri">
-    <mxGraphModel dx="1181" dy="991" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="583" pageHeight="827" math="0" shadow="0">
+<mxfile host="Electron" pages="4">
+  <diagram name="Java" id="6BKShJtColVYPRgcAZNE">
+    <mxGraphModel dx="-52" dy="838" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="583" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="X4Q5y0FNXTrqmPnAaB_m-6" edge="1" parent="1" source="X4Q5y0FNXTrqmPnAaB_m-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="X4Q5y0FNXTrqmPnAaB_m-2">
+        <mxCell id="gnD7zh6zY44D4fJr4ybR-1" edge="1" parent="1" source="gnD7zh6zY44D4fJr4ybR-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="gnD7zh6zY44D4fJr4ybR-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="X4Q5y0FNXTrqmPnAaB_m-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Código fuente (&lt;code dir=&quot;ltr&quot; class=&quot;KDcb0c&quot; style=&quot;font-size: 14px; font-weight: 700; margin: 0px; border-bottom: 1px solid rgb(44, 46, 53);&quot;&gt;.java&lt;/code&gt;)" vertex="1">
-          <mxGeometry height="40" width="160" x="640" y="40" as="geometry" />
+        <mxCell id="gnD7zh6zY44D4fJr4ybR-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Código fuente (&lt;code dir=&quot;ltr&quot; class=&quot;KDcb0c&quot; style=&quot;font-size: 14px; font-weight: 700; margin: 0px; border-bottom: 1px solid rgb(44, 46, 53);&quot;&gt;.java&lt;/code&gt;)&lt;div&gt;&lt;br&gt;&lt;div&gt;(Es el codigo que el programador a creadopara resolver cierto problema)&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="240" x="640" y="40" as="geometry" />
         </mxCell>
-        <mxCell id="X4Q5y0FNXTrqmPnAaB_m-7" edge="1" parent="1" source="X4Q5y0FNXTrqmPnAaB_m-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="X4Q5y0FNXTrqmPnAaB_m-3">
+        <mxCell id="gnD7zh6zY44D4fJr4ybR-3" edge="1" parent="1" source="gnD7zh6zY44D4fJr4ybR-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="gnD7zh6zY44D4fJr4ybR-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="760" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gnD7zh6zY44D4fJr4ybR-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&amp;nbsp;Compilación a Bytecode (&lt;code dir=&quot;ltr&quot; class=&quot;KDcb0c&quot; style=&quot;font-size: 14px; font-weight: 600; margin: 0px; border-bottom: 1px solid rgb(44, 46, 53);&quot;&gt;javac&lt;/code&gt;)&amp;nbsp;&lt;div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;*1&lt;/font&gt;(Extensión .class y es el tipo de instrucciones que JVM espera recibir para&amp;nbsp; compiladas a lenguaje de máquina)&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="240" x="640" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="gnD7zh6zY44D4fJr4ybR-5" edge="1" parent="1" source="gnD7zh6zY44D4fJr4ybR-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="gnD7zh6zY44D4fJr4ybR-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="X4Q5y0FNXTrqmPnAaB_m-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Compilación (.javac)" vertex="1">
-          <mxGeometry height="40" width="160" x="640" y="120" as="geometry" />
+        <mxCell id="gnD7zh6zY44D4fJr4ybR-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="JVM&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;*2(&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;lee el archivo &lt;/span&gt;&lt;code dir=&quot;ltr&quot; class=&quot;KDcb0c&quot; style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 14px; margin: 0px; border-bottom: 1px solid rgb(44, 46, 53);&quot;&gt;.class&lt;/code&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt; con el Bytecode y lo lleva a la memoria.&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="240" x="640" y="360" as="geometry" />
         </mxCell>
-        <mxCell id="X4Q5y0FNXTrqmPnAaB_m-8" edge="1" parent="1" source="X4Q5y0FNXTrqmPnAaB_m-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="X4Q5y0FNXTrqmPnAaB_m-4">
+        <mxCell id="gnD7zh6zY44D4fJr4ybR-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value=" Final a Código Máquina (JIT)" vertex="1">
+          <mxGeometry height="110" width="240" x="640" y="520" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="C#" id="O0uuRfiNYrpJQo-bneU9">
+    <mxGraphModel dx="57" dy="1010" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="583" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="oPm6J8mqLpNiJp_xgchs-0" />
+        <mxCell id="oPm6J8mqLpNiJp_xgchs-1" parent="oPm6J8mqLpNiJp_xgchs-0" />
+        <mxCell id="oPm6J8mqLpNiJp_xgchs-2" edge="1" parent="oPm6J8mqLpNiJp_xgchs-1" source="oPm6J8mqLpNiJp_xgchs-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="oPm6J8mqLpNiJp_xgchs-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="X4Q5y0FNXTrqmPnAaB_m-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value=" Bytecode" vertex="1">
-          <mxGeometry height="40" width="160" x="640" y="200" as="geometry" />
+        <mxCell id="oPm6J8mqLpNiJp_xgchs-3" parent="oPm6J8mqLpNiJp_xgchs-1" style="rounded=0;whiteSpace=wrap;html=1;" value="Código fuente (&lt;code dir=&quot;ltr&quot; class=&quot;KDcb0c&quot; style=&quot;font-size: 14px; font-weight: 700; margin: 0px; border-bottom: 1px solid rgb(44, 46, 53);&quot;&gt;.cs&lt;/code&gt;)&lt;div&gt;&lt;br&gt;&lt;div&gt;(Es el codigo que el programador a creadopara resolver cierto problema)&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="240" x="640" y="40" as="geometry" />
         </mxCell>
-        <mxCell id="X4Q5y0FNXTrqmPnAaB_m-9" edge="1" parent="1" source="X4Q5y0FNXTrqmPnAaB_m-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="X4Q5y0FNXTrqmPnAaB_m-5">
+        <mxCell id="-TiTcYf7Py4qBq6DxbLY-1" edge="1" parent="oPm6J8mqLpNiJp_xgchs-1" source="oPm6J8mqLpNiJp_xgchs-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="-TiTcYf7Py4qBq6DxbLY-0">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="X4Q5y0FNXTrqmPnAaB_m-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="JVM" vertex="1">
-          <mxGeometry height="40" width="160" x="640" y="280" as="geometry" />
+        <mxCell id="oPm6J8mqLpNiJp_xgchs-5" parent="oPm6J8mqLpNiJp_xgchs-1" style="rounded=0;whiteSpace=wrap;html=1;" value="Compilación a Tiempo de Compilación (Roslyn)" vertex="1">
+          <mxGeometry height="120" width="240" x="640" y="200" as="geometry" />
         </mxCell>
-        <mxCell id="X4Q5y0FNXTrqmPnAaB_m-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value=" Final a Código Máquina (JIT)" vertex="1">
-          <mxGeometry height="40" width="160" x="640" y="360" as="geometry" />
-        </mxCell>
-        <mxCell id="X4Q5y0FNXTrqmPnAaB_m-10" edge="1" parent="1" source="X4Q5y0FNXTrqmPnAaB_m-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="X4Q5y0FNXTrqmPnAaB_m-13">
+        <mxCell id="oPm6J8mqLpNiJp_xgchs-6" edge="1" parent="oPm6J8mqLpNiJp_xgchs-1" source="oPm6J8mqLpNiJp_xgchs-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="oPm6J8mqLpNiJp_xgchs-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="X4Q5y0FNXTrqmPnAaB_m-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Código fuente (&lt;code dir=&quot;ltr&quot; class=&quot;KDcb0c&quot; style=&quot;font-size: 14px; font-weight: 700; margin: 0px; border-bottom: 1px solid rgb(44, 46, 53);&quot;&gt;.java&lt;/code&gt;)" vertex="1">
-          <mxGeometry height="40" width="160" x="960" y="40" as="geometry" />
+        <mxCell id="oPm6J8mqLpNiJp_xgchs-7" parent="oPm6J8mqLpNiJp_xgchs-1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Carga y Ejecución por la CLR&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="240" x="640" y="520" as="geometry" />
         </mxCell>
-        <mxCell id="X4Q5y0FNXTrqmPnAaB_m-12" edge="1" parent="1" source="X4Q5y0FNXTrqmPnAaB_m-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="X4Q5y0FNXTrqmPnAaB_m-15">
+        <mxCell id="oPm6J8mqLpNiJp_xgchs-8" parent="oPm6J8mqLpNiJp_xgchs-1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" value="  Compilación JIT (JIT)" vertex="1">
+          <mxGeometry height="120" width="240" x="640" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="-TiTcYf7Py4qBq6DxbLY-2" edge="1" parent="oPm6J8mqLpNiJp_xgchs-1" source="-TiTcYf7Py4qBq6DxbLY-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="oPm6J8mqLpNiJp_xgchs-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="X4Q5y0FNXTrqmPnAaB_m-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Compilación (.javac)" vertex="1">
-          <mxGeometry height="40" width="160" x="960" y="120" as="geometry" />
+        <mxCell id="-TiTcYf7Py4qBq6DxbLY-0" parent="oPm6J8mqLpNiJp_xgchs-1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0;fontColor=default;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;El Rol del CIL (Common Intermediate Language)&lt;/div&gt;&lt;div&gt;Es un lenguaje de bajo nivel orientado a objetos, pero independiente de la plataforma y del procesador&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="240" x="640" y="355" as="geometry" />
         </mxCell>
-        <mxCell id="X4Q5y0FNXTrqmPnAaB_m-14" edge="1" parent="1" source="X4Q5y0FNXTrqmPnAaB_m-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="X4Q5y0FNXTrqmPnAaB_m-17">
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Python" id="s-ECIUw5i6veRqKDBur9">
+    <mxGraphModel dx="-276" dy="484" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="583" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="FZGNKS1TEzoOYcOnriRU-0" />
+        <mxCell id="FZGNKS1TEzoOYcOnriRU-1" parent="FZGNKS1TEzoOYcOnriRU-0" />
+        <mxCell id="FZGNKS1TEzoOYcOnriRU-2" edge="1" parent="FZGNKS1TEzoOYcOnriRU-1" source="FZGNKS1TEzoOYcOnriRU-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="FZGNKS1TEzoOYcOnriRU-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="X4Q5y0FNXTrqmPnAaB_m-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value=" Bytecode" vertex="1">
-          <mxGeometry height="40" width="160" x="960" y="200" as="geometry" />
+        <mxCell id="FZGNKS1TEzoOYcOnriRU-3" parent="FZGNKS1TEzoOYcOnriRU-1" style="rounded=0;whiteSpace=wrap;html=1;" value="Código fuente (&lt;code dir=&quot;ltr&quot; class=&quot;KDcb0c&quot; style=&quot;font-size: 14px; font-weight: 700; margin: 0px; border-bottom: 1px solid rgb(44, 46, 53);&quot;&gt;.py&lt;/code&gt;)&lt;div&gt;&lt;br&gt;&lt;div&gt;(Es el codigo que el programador a creado para resolver cierto problema)&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="240" x="640" y="40" as="geometry" />
         </mxCell>
-        <mxCell id="X4Q5y0FNXTrqmPnAaB_m-16" edge="1" parent="1" source="X4Q5y0FNXTrqmPnAaB_m-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="X4Q5y0FNXTrqmPnAaB_m-18">
+        <mxCell id="FZGNKS1TEzoOYcOnriRU-4" edge="1" parent="FZGNKS1TEzoOYcOnriRU-1" source="FZGNKS1TEzoOYcOnriRU-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="FZGNKS1TEzoOYcOnriRU-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="760" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FZGNKS1TEzoOYcOnriRU-5" parent="FZGNKS1TEzoOYcOnriRU-1" style="rounded=0;whiteSpace=wrap;html=1;" value="Generación del Bytecode (&lt;code dir=&quot;ltr&quot; class=&quot;KDcb0c&quot; style=&quot;font-size: 14px; font-weight: 600; margin: 0px; border-bottom: 1px solid rgb(44, 46, 53);&quot;&gt;.pyc&lt;/code&gt;)" vertex="1">
+          <mxGeometry height="120" width="240" x="640" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="FZGNKS1TEzoOYcOnriRU-7" parent="FZGNKS1TEzoOYcOnriRU-1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" value="&amp;nbsp;El rol del Intérprete (Máquina Virtual de Python - PVM)&lt;div&gt;&lt;br&gt;&lt;div&gt;Lo traduce, línea por línea y en tiempo real, a código máquina específico para el sistema operativo y el procesador que estás usando&amp;nbsp;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="240" x="640" y="360" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="TJS" id="KXvObmuertr2BKoNrP-t">
+    <mxGraphModel dx="-52" dy="838" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="583" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="AeixtfZGAOQMDR_coRos-0" />
+        <mxCell id="AeixtfZGAOQMDR_coRos-1" parent="AeixtfZGAOQMDR_coRos-0" />
+        <mxCell id="AeixtfZGAOQMDR_coRos-2" edge="1" parent="AeixtfZGAOQMDR_coRos-1" source="AeixtfZGAOQMDR_coRos-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="AeixtfZGAOQMDR_coRos-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="X4Q5y0FNXTrqmPnAaB_m-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="JVM" vertex="1">
-          <mxGeometry height="40" width="160" x="960" y="280" as="geometry" />
+        <mxCell id="AeixtfZGAOQMDR_coRos-3" parent="AeixtfZGAOQMDR_coRos-1" style="rounded=0;whiteSpace=wrap;html=1;" value="Código fuente (&lt;code dir=&quot;ltr&quot; class=&quot;KDcb0c&quot; style=&quot;font-size: 14px; font-weight: 700; margin: 0px; border-bottom: 1px solid rgb(44, 46, 53);&quot;&gt;.ts&lt;/code&gt;)&lt;div&gt;&lt;br&gt;&lt;div&gt;(Es el codigo que el programador a creadopara resolver cierto problema)&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="240" x="640" y="40" as="geometry" />
         </mxCell>
-        <mxCell id="X4Q5y0FNXTrqmPnAaB_m-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value=" Final a Código Máquina (JIT)" vertex="1">
-          <mxGeometry height="40" width="160" x="960" y="360" as="geometry" />
+        <mxCell id="AeixtfZGAOQMDR_coRos-4" edge="1" parent="AeixtfZGAOQMDR_coRos-1" source="AeixtfZGAOQMDR_coRos-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="AeixtfZGAOQMDR_coRos-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="760" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AeixtfZGAOQMDR_coRos-5" parent="AeixtfZGAOQMDR_coRos-1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;" value="&amp;nbsp;El proceso de Transpilación (El Compilador tsc&lt;div&gt;&lt;br&gt;Cuando ejecutas el comando tsc (TypeScript Compiler), se activa el núcleo del proceso y enterga todo en un .js&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="240" x="640" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="AeixtfZGAOQMDR_coRos-7" parent="AeixtfZGAOQMDR_coRos-1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Ejecución del código&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Se puede ejecutar normalmente como u .js en el navegador&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="240" x="640" y="360" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
