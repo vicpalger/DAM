@@ -27,11 +27,11 @@ public class Ej18 {
 		System.out.println("Nombre........................:" + nombre);
 		System.out.println("Direccion.....................:" + direccion + "\n");
 		System.out.println("NIF...........................:" + NIF);
-		System.out.println("Fecha de nacimiento...........:" + dd + "del mes" + mm + "del" + aaaa + "\n");
+		System.out.println("Fecha de nacimiento...........:" + dd + " del mes " + mm + " del año " + aaaa + "\n");
 		System.out.println("Salario Bruto.................:" + salario_bruto);
 		System.out.println("Redencion.....................:" + retraccion + "%");
 		System.out.println("Salarion Neto.................:"+salarion_neto);
-
+		System.out.println("----------------------------------------------------------------");
 	}
 
 }
