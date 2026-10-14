@@ -9,9 +9,11 @@ public class Ej23 {
 		x = s.nextDouble();
 		x1 = x / 100;
 		x2 = (x % 100)/10;
+		x3 = ((x % 100)%10);
 		
-		System.out.printf("El primer digito de %.0f es %.0f\n",x,x1);
-		System.out.printf("El primer digito de %.0f es %.0f\n",x,x2);
+		System.out.printf("El primer digito de %.0f es %.0f \n",x,x1);
+		System.out.printf("El primer digito de %.0f es %.0f \n",x,x2);
+		System.out.printf("El primer digito de %.0f es %.0f \n",x,x3);
 
 	}
 
