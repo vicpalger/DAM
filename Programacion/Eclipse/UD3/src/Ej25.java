@@ -4,8 +4,8 @@ public class Ej25 {
 
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
-		int rango = 0, casado = 0, IRPF = 0;
-		double sueldo_bruto = 0, viajes = 0 ,sueldo_neto = 0;
+		int rango = 0, casado = 0 ;
+		double sueldo_bruto = 0, viajes = 0 ,sueldo_neto = 0 , IRPF = 0 ;
 		do {
 			System.out.println("Junior : 1\nSenior : 2\nJefe de Poyecto : 3");
 			System.out.println("Que rango eres:");
@@ -65,8 +65,10 @@ public class Ej25 {
 		System.out.println("= Sueldo Inicial \t:\t" + sueldo_bruto + "\t=");
 		System.out.println("= Dietas (" + viajes + "Viajes) \t:\t" + (viajes * 30) + "\t=");
 		System.out.println("=========================================");
-		System.out.println("Sueldo \t:\t"+sueldo_neto+ "\t=");
-		
+		System.out.println("Sueldo \t:\t\t"+sueldo_neto+ "\t=");
+		System.out.println("Retencinon IRFP("+IRPF+"%):\t "+sueldo_neto*(IRPF/100)+ "\t=");
+		System.out.println("=========================================");
+		System.out.println("Sueldo total :\t\t"+ (sueldo_neto - (sueldo_neto*(IRPF/100)))+ "\t=");
 
 	}
 
