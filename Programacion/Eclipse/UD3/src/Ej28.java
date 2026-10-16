@@ -1,0 +1,23 @@
+
+public class Ej28 {
+
+	public static void main(String[] args) {
+		final int temporada = 8, capitulo = 10;
+		for (int t = 1; t != temporada+1; t++) {
+			for (int c = 1; c != capitulo+1; c++) {
+				if (t == 3 && c == 9) {
+					System.out.println("Capitulo "+c+" Temp "+t+": La boda roja");
+				}
+				else if (t == 6 && c == 10) {
+					System.out.println("Capitulo "+c+" Temp "+t+": Vientos de invierno.");
+				}
+				else{
+					System.out.println("Capitulo "+c+" Temp "+t+"");
+				};
+			}
+			;
+		}
+		;
+	};
+
+}
