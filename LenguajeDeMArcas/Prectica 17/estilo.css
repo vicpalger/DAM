@@ -1,0 +1,33 @@
+ body {
+            background-color: #cfc;
+            color: #00f;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 16px;
+        }
+
+        h1 {
+            color: #f00;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 32px;
+        }
+
+        h2 {
+            color: #a00;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+        }
+
+        .dato-libro {
+            color: #060;
+        }
+
+        .termino-web {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .tecnologia-web {
+            color: #FFF;
+            background-color: #000;
+            font-style: italic;
+        }
