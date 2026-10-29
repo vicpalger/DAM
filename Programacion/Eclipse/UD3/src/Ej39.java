@@ -20,78 +20,78 @@ public class Ej39 {
 			int4 = s.nextInt();
 			
 			if (num1 == int1 && num2 == int2 && num3 == int3 && num4 == int4) {
-				System.out.println(verde + "Todo Correcto" + reset + " Pasa");
+				System.out.println(verde + "Felicidades!" + reset + "  La clave era 5678!");
 				break;
 			} else {
-				System.out.println(rojo + "Codigo Incorrecto" + reset);
+				System.out.println(rojo + "Mala suerte" + reset+", sigue intentándolo!");
 				switch (int1) {
 				case num1:
-					System.out.print(verde + num1 + reset);
+					System.out.println("Aunque el primer digito lo has acertado "+verde + num1 + reset);
 					break;
 				case num2:
-					System.out.print(amarillo + int1 + reset);
+					System.out.println("Aunque este es uno pero no esta aqui "+amarillo + int1 + reset);
 					break;
 				case num3:
-					System.out.print(amarillo + int1 + reset);
+					System.out.println("Aunque este es uno pero no esta aqui "+amarillo + int1 + reset);
 					break;
 				case num4:
-					System.out.print(amarillo + int1 + reset);
+					System.out.println("Aunque este es uno pero no esta aqui "+amarillo + int1 + reset);
 					break;
 				default:
-					System.out.print(rojo + int1 + reset);
+					
 					break;
 				}
 
 				switch (int2) {
 				case num2:
-					System.out.print(verde + num2 + reset);
+					System.out.println("Aunque el primer digito lo has acertado "+verde + num2 + reset);
 					break;
 				case num3:
-					System.out.print(amarillo + int2 + reset);
+					System.out.println("Aunque este es uno pero no esta aqui "+amarillo + int2 + reset);
 					break;
 				case num4:
-					System.out.print(amarillo + int2 + reset);
+					System.out.println("Aunque este es uno pero no esta aqui "+amarillo + int2 + reset);
 					break;
 				case num1:
-					System.out.print(amarillo + int2 + reset);
+					System.out.println("Aunque este es uno pero no esta aqui "+amarillo + int2 + reset);
 					break;
 				default:
-					System.out.print(rojo + int2 + reset);
+			
 					break;
 				}
 
 				switch (int3) {
 				case num3:
-					System.out.print(verde + num3 + reset);
+					System.out.println("Aunque el primer digito lo has acertado "+verde + num3 + reset);
 					break;
 				case num2:
-					System.out.print(amarillo + int3 + reset);
+					System.out.println("Aunque este es uno pero no esta aqui "+amarillo + int3 + reset);
 					break;
 				case num1:
-					System.out.print(amarillo + int3 + reset);
+					System.out.println("Aunque este es uno pero no esta aqui "+amarillo + int3 + reset);
 					break;
 				case num4:
-					System.out.print(amarillo + int3 + reset);
+					System.out.println("Aunque este es uno pero no esta aqui "+amarillo + int3 + reset);
 					break;
 				default:
-					System.out.print(rojo + int3 + reset);
+					
 					break;
 				}
 
 				switch (int4) {
 				case num4:
-					System.out.print(verde + num4 + reset);
+					System.out.println("Aunque el primer digito lo has acertado "+verde + num4 + reset);
 					break;
 				case num2:
-					System.out.print(amarillo + int4 + reset);
+					System.out.println("Aunque este es uno pero no esta aqui "+amarillo + int4 + reset);
 				case num3:
-					System.out.print(amarillo + int4 + reset);
+					System.out.println("Aunque este es uno pero no esta aqui "+amarillo + int4 + reset);
 					break;
 				case num1:
-					System.out.print(amarillo + int4 + reset);
+					System.out.println("Aunque este es uno pero no esta aqui "+amarillo + int4 + reset);
 					break;
 				default:
-					System.out.print(rojo + int4 + reset);
+		
 					break;
 				}
 				
@@ -100,6 +100,7 @@ public class Ej39 {
 			System.out.println("");
 		}
 		;
+		System.out.println("Fin del programa");
 	}
 
 }
