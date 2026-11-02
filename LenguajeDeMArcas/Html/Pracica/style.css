@@ -1,85 +1,54 @@
 
-:root {
-  /* Colores originales */
-  --color-1: #20DACC;
-  --color-2: #B7ECAA;
-  --color-3: #980C50;
-  --color-4: #D45C4F;
-  --color-5: #EBB671;
-
-  /* Verdes y turquesas */
-  --color-6: #119C96;
-  --color-7: #75E5D0;
-  --color-8: #A4DCCB;
-  --color-9: #286B50;
-  --color-10: #D5E98B;
-  --color-11: #8DAF91;
-
-  /* Rosas y morados */
-  --color-12: #F2B6C6;
-  --color-13: #D63384;
-  --color-14: #680D3C;
-  --color-15: #F18B78;
-  --color-16: #B92D67;
-  --color-17: #C6A4D8;
-
-  /* Naranjas y amarillos */
-  --color-18: #F5C6A5;
-  --color-19: #F28C38;
-  --color-20: #C99A32;
-  --color-21: #F5DC8B;
-  --color-22: #B95E45;
-  --color-23: #E8D5B5;
-
-  /* Neutros */
-  --color-24: #FFF9F0;
-  --color-25: #F4EBDD;
-  --color-26: #C7C2BC;
-  --color-27: #92877D;
-  --color-28: #34343A;
-  --color-29: #263C55;
+h1 {
+    font-size: 36px;
+    color: #2563eb;
 }
 
-
-body{
-    background-color: #ebb671;
-}
-#perfil{
-    height: 150px;
-    border-radius: 50%;
-}
-h1{
-    color: #980c50;
-    font-size: 50px;
-}
-h2{
-    font-size: 35px;
-    color: #d45c4f;
-}
-h3{
-    font-size: 30px;
-}
-h4{
+h2 {
     font-size: 25px;
-    color: #263C55;
+    color: #7c3aed;
 }
-.destacado {
-    background-color: #F28C38;
-    border-radius: 25px ;
+
+p {
+    line-height: 1.6;
+    color: #374151;
 }
-#estudio{
-    font-size: larger;
-    text-decoration: underline ;
-    color: #263C55;
-}
+
+
 a {
+    color: #0891b2;
     text-decoration: none;
-    color: #680D3C;
 }
-p{
-    line-height: 1.5px;
-    color: #34343A;
+
+li {
+    font-size: 17px;
 }
-section{
-    background-color: #B7ECAA;
+
+
+/* Texto destacado */
+.destacado {
+    color: #1d4ed8;
+    background-color: #dbeafe;
+}
+
+
+.nota {
+    font-style: italic;
+    opacity: 0.7;
+}
+
+.caps {
+    text-transform: uppercase;
+    color: #7c3aed;
+}
+
+
+#cabecera {
+    letter-spacing: 2px;
+    background-color: #dbeafe;
+}
+
+#pie {
+    font-size: 12px;
+    color: #9ca3af;
 }
