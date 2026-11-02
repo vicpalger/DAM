@@ -1,0 +1,22 @@
+:root{
+.color1 {color: #20dacc;}
+.color2 {color: #b7ecaa;}
+.color3 {color: #980c50;}
+.color4 {color: #d45c4f;}
+.color5 {color: #ebb671;}
+}
+body{
+    background-color: #ebb671;
+}
+h1{
+    color: #980c50;
+    font-size: 50px;
+}
+h2{
+    font-size: medium;
+    color: #d45c4f;
+}
+p{
+    line-height: 1.5px;
+    color: ;
+}
