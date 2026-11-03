@@ -1,9 +1,5 @@
 
 public class HolaMundo {
-	/**
-	 * 
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		int colmna = 0, fila = 0, numero  = 10, altura = 11 ;
 		fila = numero;
