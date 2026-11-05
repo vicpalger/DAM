@@ -40,8 +40,8 @@ public class Ej50 {
 				System.out.println("Dame palabra 2");
 				palabra2 = s.nextLine();
 				palabra2 = palabra2.trim();
-				System.out.println(palabra +" "+ palabra2 );
-				
+				System.out.println(palabra + " " + palabra2);
+
 				break;
 			case 4:
 				System.out.println("Dame palabra");
