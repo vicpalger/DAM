@@ -16,10 +16,10 @@ public class Ej53 {
 		for (int i = 0; i <= melodia; i++) {
 			for (int j = 0; j <= 4; j++) {
 				nota = (int) (r.nextDouble() * notas.length - 1 + 1);
-				if (i == 0 || j == 0) {
+				if (i == 0 && j == 0) {
 					notaInicial = notas[nota];
 				}
-				if (i == melodia || j == 4) {
+				if (i == melodia && j == 4) {
 					System.out.print(" " + notaInicial + " ");
 
 				} else {
