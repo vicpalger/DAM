@@ -1,0 +1,41 @@
+/* styles.css */
+
+/* ===== Variables y base ===== */
+:root {
+    --bg: #0b0d12;
+    --surface: #141824;
+    --surface-2: #10131c;
+    --text: #e6e8ee;
+    --muted: #9aa3b2;
+    --primary: #6aa2ff;
+    --accent: #ff6ad5;
+    --ok: #31c48d;
+    --warn: #f4b740;
+    --danger: #ef4444;
+    --chip-border: rgba(230, 232, 238, 0.2);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* aquí vuestros css */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--bg);
+    color: var(--text);
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--surface);
+}
+header a{
+ text-decoration: none;
+ color: var(--text);
+ margin: 10px;
+}

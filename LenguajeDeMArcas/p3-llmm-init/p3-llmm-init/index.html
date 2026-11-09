@@ -1,0 +1,95 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mini portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header id="cabecera">
+        <h1>Mi Portfolio</h1>
+        <nav class="main-nav">
+            <a href="#inicio">Inicio</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="inicio">
+            <h2>Hola, soy Alex</h2>
+            <p>Este es un portfolio de práctica con HTML y CSS básicos.</p>
+        </section>
+
+        <section id="proyectos" class="grid">
+            <!-- 6 tarjetas (puedes duplicar este bloque y cambiar títulos/etiquetas) -->
+            <article class="card">
+                <div class="thumb" aria-hidden="true"></div>
+                <h3>Proyecto 1</h3>
+                <ul class="chips">
+                    <li class="chip" data-level="principiante">HTML</li>
+                    <li class="chip" data-level="medio">CSS</li>
+                </ul>
+                <a class="btn" href="#" aria-label="Ver más sobre Proyecto 1">Ver más</a>
+            </article>
+
+            <article class="card">
+                <div class="thumb" aria-hidden="true"></div>
+                <h3>Proyecto 2</h3>
+                <ul class="chips">
+                    <li class="chip" data-level="medio">Flexbox</li>
+                    <li class="chip" data-level="avanzado">Accesibilidad</li>
+                </ul>
+                <a class="btn" href="#" aria-label="Ver más sobre Proyecto 2">Ver más</a>
+            </article>
+
+            <article class="card">
+                <div class="thumb" aria-hidden="true"></div>
+                <h3>Proyecto 3</h3>
+                <ul class="chips">
+                    <li class="chip" data-level="principiante">Listas</li>
+                    <li class="chip" data-level="medio">Selectores</li>
+                </ul>
+                <a class="btn" href="#">Ver más</a>
+            </article>
+
+            <article class="card">
+                <div class="thumb" aria-hidden="true"></div>
+                <h3>Proyecto 4</h3>
+                <ul class="chips">
+                    <li class="chip" data-level="avanzado">Animaciones</li>
+                </ul>
+                <a class="btn" href="#">Ver más</a>
+            </article>
+
+            <article class="card">
+                <div class="thumb" aria-hidden="true"></div>
+                <h3>Proyecto 5</h3>
+                <ul class="chips">
+                    <li class="chip" data-level="medio">Componentes</li>
+                    <li class="chip" data-level="principiante">Tipografía</li>
+                </ul>
+                <a class="btn" href="#">Ver más</a>
+            </article>
+
+            <article class="card">
+                <div class="thumb" aria-hidden="true"></div>
+                <h3>Proyecto 6</h3>
+                <ul class="chips">
+                    <li class="chip" data-level="avanzado">UI</li>
+                </ul>
+                <a class="btn" href="#">Ver más</a>
+            </article>
+        </section>
+    </main>
+
+    <footer id="pie">
+        <p>© 2025 – Portfolio de práctica</p>
+    </footer>
+</body>
+
+</html>

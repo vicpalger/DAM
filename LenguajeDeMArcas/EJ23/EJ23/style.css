@@ -4,6 +4,9 @@ h1 {
 h2{
  border: 2px solid #aaa;
 }
-ul{
-    border: 4px ;
+.datos_del_libro{
+    border: 4px  dotted #f00 ;
+}
+.contenido_del_libro{
+    border: 2px dotted #0f0;
 }
