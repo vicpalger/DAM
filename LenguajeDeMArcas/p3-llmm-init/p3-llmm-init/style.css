@@ -42,6 +42,10 @@ header a {
     margin: 10px;
 }
 
+header a:hover {
+   
+}
+
 .hero {
     margin-top: 0;
     display: block;
@@ -98,7 +102,8 @@ header a {
     color: var(--bg);
     margin-left: 15px;
 }
-.card a:hover{
+
+.card a:hover {
     color: #0b0d12;
 }
 
