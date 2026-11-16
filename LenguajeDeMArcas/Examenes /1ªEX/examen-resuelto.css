@@ -1,0 +1,198 @@
+/* PALETA: fondo #cdebfa; superficie white; texto rgb(29, 42, 68);
+   primario rgb(31, 95, 191); acento #fed90f; borde #7fa9cc.
+   Maquetación con block e inline-block, sin Flexbox ni Grid. */
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background-color: #cdebfa;
+  color: rgb(29, 42, 68);
+  font: 16px/1.6 Arial, Helvetica, sans-serif;
+}
+h1, h2, h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+h1 {
+  margin: 0;
+  padding: 16px 12px 8px 12px;
+  font-size: 2.5rem;
+}
+h2 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-size: 1.6rem;
+}
+h3 {
+  margin-top: 12px;
+  margin-bottom: 8px;
+  font-size: 1.2em;
+}
+p {
+  margin: 8px 0 12px 0;
+}
+header {
+  padding: 12px;
+  background-color: #fed90f;
+  border-bottom: 6px double rgb(31, 95, 191);
+}
+main {
+  width: 94%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 24px 0;
+}
+section {
+  margin-bottom: 2rem;
+}
+footer {
+  padding: 20px;
+  background-color: rgb(31, 95, 191);
+  color: white;
+  text-align: center;
+}
+footer p { margin: 0; }
+/* Hijo directo, hermano adyacente, hermano general y descendiente. */
+section > h2 {
+  padding-left: 12px;
+  border-left: 5px solid rgb(31, 95, 191);
+}
+h2 + p {
+  font-style: italic;
+  font-size: 1.05em;
+}
+h3 ~ p { line-height: 1.7; }
+article p { color: rgba(29, 42, 68, 1); }
+nav { padding: 8px 12px; }
+.nav-item {
+  display: inline;
+  margin-right: 16px;
+  color: rgb(29, 42, 68);
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+article {
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: white;
+  border: 2px solid #7fa9cc;
+}
+article img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: 12px;
+}
+/* vertical-align se aplica únicamente a las columnas. */
+#personajes article {
+  display: inline-block;
+  width: 47%;
+  margin: 0 1% 16px 1%;
+  vertical-align: top;
+}
+#personajes img {
+  height: 300px;
+  object-fit: contain;
+}
+span.chip {
+  display: inline-block;
+  padding: 4px 10px;
+  border: 1px solid #7fa9cc;
+  font-size: 0.85rem;
+  font-weight: bold;
+}
+.chip[data-type="capitulo"] {
+  background-color: #fed90f;
+  color: rgb(29, 42, 68);
+}
+.chip[data-type="personaje"] {
+  background-color: rgb(31, 95, 191);
+  color: white;
+  font-style: italic;
+}
+.btn {
+  display: block;
+  width: 60%;
+  margin: 12px auto 0 auto;
+  padding: 0.65rem;
+  border: 2px solid rgb(31, 95, 191);
+  background-color: rgb(31, 95, 191);
+  color: white;
+  font-family: inherit;
+  font-size: 1rem;
+  text-align: center;
+  text-decoration: none;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 2px solid #7fa9cc;
+  background-color: white;
+}
+caption {
+  padding: 12px 0;
+  font-weight: bold;
+  text-align: left;
+}
+th, td {
+  padding: 12px;
+  border: 1px solid #7fa9cc;
+  text-align: left;
+}
+thead th {
+  background-color: rgb(31, 95, 191);
+  color: white;
+}
+td:first-child { font-weight: bold; }
+.par { background-color: #cdebfa; }
+/* El formulario ocupa el 47% y mantiene márgenes laterales del 1%. */
+.form-box {
+  display: inline-block;
+  width: 47%;
+  margin: 0 1%;
+}
+fieldset {
+  min-width: 0;
+  margin: 0;
+  padding: 16px;
+  border: 2px solid rgb(31, 95, 191);
+  background-color: white;
+}
+legend {
+  max-width: 100%;
+  padding: 4px 8px;
+  border: 1px solid #7fa9cc;
+  background-color: #fed90f;
+  color: rgb(29, 42, 68);
+  font-weight: bold;
+}
+label {
+  display: block;
+  margin: 12px 0 4px;
+  color: rgb(29, 42, 68);
+}
+.grupo {
+  margin: 16px 0;
+  border: 1px dashed #7fa9cc;
+  font-weight: bold;
+}
+.opcion { font-weight: normal; }
+input[type="text"], input[type="email"], input[type="password"], select, textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #7fa9cc;
+  background-color: #cdebfa;
+  color: rgb(29, 42, 68);
+  font-family: inherit;
+  font-size: 1rem;
+}
+input[type="submit"], input[type="reset"] { cursor: pointer; }
+input[type="reset"] {
+  background-color: white;
+  color: rgb(31, 95, 191);
+}

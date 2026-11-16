@@ -15,6 +15,7 @@
 /* TODO: box-sizing border-box */
 * {
   text-decoration: none;
+  box-sizing: border-box;
 }
 
 /* ---------- 2. Texto base (font abreviada obligatoria) ---------- */
@@ -169,7 +170,7 @@ aside img {
 }
 
 .img-der {
- border-right: #fed90f dotted;
+  border-right: #fed90f dotted;
 }
 
 /* ---------- 8. Artículos con borde ---------- */
@@ -275,7 +276,12 @@ label {}
 input[type="text"],
 input[type="password"],
 select,
-textarea {}
+textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #cdebfa;
+}
 
 /* TODO: input[type="submit"], input[type="reset"] con cursor pointer */
 /* TODO: input[type="reset"] con background superficie y color primario */

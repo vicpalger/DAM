@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Universo Simpson</title>
+  <link rel="stylesheet" href="examen-resuelto.css">
+</head>
+<body>
+  <header>
+    <h1>Universo Simpson</h1>
+    <nav aria-label="Navegación principal">
+      <a class="nav-item" href="#capitulos">Capítulos</a>
+      <a class="nav-item" href="#personajes">Personajes</a>
+      <a class="nav-item" href="#tabla">Tabla</a>
+      <a class="nav-item" href="#contacto">Contacto</a>
+    </nav>
+  </header>
+  <main>
+    <section id="portada">
+      <h2>Bienvenido a Springfield</h2>
+      <p>Una guía de capítulos y personajes de Los Simpson.</p>
+    </section>
+    <!-- Bloques apilados; cada enlace lleva a su fila concreta de la tabla. -->
+    <section id="capitulos">
+      <h2>Capítulos</h2>
+      <p>Tres episodios que todo fan debería ver.</p>
+      <article>
+        <img src="IMG1.png" alt="Escena del capítulo Cuando Flanders falló">
+        <span class="chip" data-type="capitulo">Capítulo</span>
+        <h3>Cuando Flanders falló</h3>
+        <p>Ned Flanders abre una tienda para zurdos. Cuando el negocio empieza a ir mal, Homer deberá decidir si ayuda a su vecino.</p>
+        <p>Temporada 3, episodio 3.</p>
+        <a class="btn" href="#capitulo-flanders">Ver ficha</a>
+      </article>
+      <article>
+        <img src="IMG2.png" alt="Escena del capítulo Homer en el espacio exterior">
+        <span class="chip" data-type="capitulo">Capítulo</span>
+        <h3>Homer en el espacio exterior</h3>
+        <p>Homer participa en un programa de la NASA que envía a un ciudadano corriente al espacio, con resultados inesperados.</p>
+        <p>Temporada 5, episodio 15.</p>
+        <a class="btn" href="#capitulo-espacio">Ver ficha</a>
+      </article>
+      <article>
+        <img src="IMG3.png" alt="Escena del capítulo Lisa la vegetariana">
+        <span class="chip" data-type="capitulo">Capítulo</span>
+        <h3>Lisa la vegetariana</h3>
+        <p>Lisa decide dejar de comer carne y trata de que su familia respete su nueva forma de pensar.</p>
+        <p>Temporada 7, episodio 5.</p>
+        <a class="btn" href="#capitulo-lisa">Ver ficha</a>
+      </article>
+    </section>
+    <!-- Dos columnas mediante inline-block y anchos porcentuales. -->
+    <section id="personajes">
+      <h2>Personajes</h2>
+      <p>Dos caras imprescindibles de Springfield.</p>
+      <article>
+        <img src="Homer.webp" alt="Homer Simpson">
+        <span class="chip" data-type="personaje">Personaje</span>
+        <h3>Homer Simpson</h3>
+        <p>Inspector de seguridad de la central nuclear y amante de las rosquillas.</p>
+        <a class="btn" href="#contacto">Más info</a>
+      </article>
+      <article>
+        <img src="Marge.jpg" alt="Marge Simpson con su característico pelo azul">
+        <span class="chip" data-type="personaje">Personaje</span>
+        <h3>Marge Simpson</h3>
+        <p>Pilar de la familia, reconocible por su paciencia y su inconfundible pelo azul.</p>
+        <a class="btn" href="#contacto">Más info</a>
+      </article>
+    </section>
+    <section id="tabla">
+      <h2>Ficha de los capítulos</h2>
+      <p>Consulta la temporada y el episodio de cada historia.</p>
+      <table>
+        <caption>Capítulos destacados de Los Simpson</caption>
+        <thead>
+          <tr><th scope="col">Título</th><th scope="col">Temporada</th><th scope="col">Episodio</th></tr>
+        </thead>
+        <tbody>
+          <tr id="capitulo-flanders"><td>Cuando Flanders falló</td><td>3</td><td>3</td></tr>
+          <tr class="par" id="capitulo-espacio"><td>Homer en el espacio exterior</td><td>5</td><td>15</td></tr>
+          <tr id="capitulo-lisa"><td>Lisa la vegetariana</td><td>7</td><td>5</td></tr>
+        </tbody>
+      </table>
+    </section>
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <p>Escribe a la tienda de Springfield.</p>
+      <!-- Demostración HTML: action="#" no conecta con un servicio de envío. -->
+      <form class="form-box" action="#" method="post">
+        <fieldset>
+          <legend>Contacto con la tienda de Springfield</legend>
+          <label for="nombre">Nombre</label>
+          <input type="text" id="nombre" name="nombre" maxlength="60" autocomplete="name" required>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" autocomplete="email" required>
+          <label for="clave">Contraseña</label>
+          <input type="password" id="clave" name="clave" autocomplete="new-password" required>
+          <label for="asunto">Asunto</label>
+          <select id="asunto" name="asunto">
+            <optgroup label="La tienda">
+              <option value="productos" selected>Información sobre productos</option>
+              <option value="pedidos">Consulta de pedidos</option>
+            </optgroup>
+            <optgroup label="La serie">
+              <option value="capitulos">Consulta sobre capítulos</option>
+              <option value="personajes">Consulta sobre personajes</option>
+            </optgroup>
+          </select>
+          <fieldset class="grupo">
+            <legend>Personaje favorito</legend>
+            <label class="opcion" for="favorito-homer"><input type="radio" id="favorito-homer" name="favorito" value="homer" checked> Homer</label>
+            <label class="opcion" for="favorito-marge"><input type="radio" id="favorito-marge" name="favorito" value="marge"> Marge</label>
+            <label class="opcion" for="favorito-lisa"><input type="radio" id="favorito-lisa" name="favorito" value="lisa"> Lisa</label>
+          </fieldset>
+          <label for="mensaje">Mensaje</label>
+          <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+          <label class="opcion" for="aceptacion"><input type="checkbox" id="aceptacion" name="aceptacion" value="si" required> Acepto las condiciones de contacto.</label>
+          <input type="hidden" name="origen" value="universo-simpson">
+          <input class="btn" type="submit" value="Enviar">
+          <input class="btn" type="reset" value="Limpiar">
+        </fieldset>
+      </form>
+    </section>
+  </main>
+  <footer><p>Universo Simpson · LLMM · Examen de la primera evaluación</p></footer>
+</body>
+</html>
