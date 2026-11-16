@@ -1,0 +1,185 @@
+/* =========================================================
+   Universo Simpson – styles.css   (PLANTILLA PARA EXAMEN)
+   Rellena cada bloque 
+
+   PALETA (rellena los 6 colores y úsalos de forma coherente):
+   - Fondo ........ #cdebfa  (hex)
+   - Superficie ... white    (nombre)
+   - Texto ........ rgb(29, 42, 68)
+   - Primario ..... rgb(31, 95, 191)
+   - Acento ....... #fed90f  (amarillo)
+   - Borde ........ #7fa9cc
+   ========================================================= */
+
+/* ---------- 1. Selector universal ---------- */
+/* TODO: box-sizing border-box */
+* {
+  /* ... */
+}
+
+/* ---------- 2. Texto base (font abreviada obligatoria) ---------- */
+body {
+  margin: 0;
+  /* background-color de la paleta */
+  /* color de la paleta (usa rgb o rgba) */
+}
+
+/* ---------- 3. Agrupación de selectores ---------- */
+/* Agrupa h1, h2, h3 y dales font-family (con reservas) y font-weight */
+h1, h2, h3 {
+  /* ... */
+  margin: 0;
+}
+/* TODO: h1 con font-size en rem + padding con 4 valores (modelo de caja) */
+h1 { }
+
+/* TODO: h2 con font-size en rem + margin-bottom */
+h2 { }
+
+/* TODO: h3 con font-size en em (o %) + margin-top y margin-bottom */
+h3 { }
+
+/* TODO: p con margin por lados */
+p { }
+
+/* ---------- 4. Cabecera, main y pie ---------- */
+/* TODO: header con background-color de acento + border-bottom de estilo DOUBLE */
+header { }
+
+/* TODO: main con padding */
+main { }
+
+/* TODO: section con margin-bottom */
+section { }
+
+/* TODO: footer con background-color primario, color de superficie (white),
+   text-align center y padding */
+footer { }
+
+/* TODO: footer p sin margen */
+footer p { }
+
+/* ---------- 5. Selectores de relación ---------- */
+/* TODO: hijo directo -> section > h2 con border-left de la paleta + padding-left */
+section > h2 { }
+
+/* TODO: hermano adyacente -> h2 + p con font-style italic + font-size en em */
+h2 + p { }
+
+/* TODO: hermano general -> h3 ~ p con line-height */
+h3 ~ p { }
+
+/* TODO: descendiente -> article p con color en rgba */
+article p { }
+
+/* ---------- 6. Nav: enlaces en línea ---------- */
+/* TODO: nav con padding */
+nav { }
+
+/* TODO: .nav-item con display: inline, margin-right,
+   color de la paleta, font-weight, text-transform, text-decoration none */
+.nav-item {
+  /* ... */
+}
+
+/* TODO: selector de atributo para el enlace al formulario:
+   a[href="#contacto"].nav-item con text-decoration underline */
+a[href="#contacto"].nav-item { }
+
+/* ---------- 7. Aside de portada: 3 imágenes inline-block ---------- */
+/* TODO: aside con background superficie, border, padding y text-align center */
+aside { }
+
+/* TODO: aside img con display inline-block, width 30%, height auto, margin 0 1% */
+aside img {
+  /* ... */
+}
+
+/* TODO: .img-izq / .img-centro / .img-der con border de estilos DISTINTOS
+   (solid, dashed, dotted) y colores de la paleta */
+.img-izq    { }
+.img-centro { }
+.img-der    { }
+
+/* ---------- 8. Artículos con borde ---------- */
+/* TODO: article con display block, width 100%, background superficie,
+   border, padding y margin-bottom */
+article { }
+
+/* TODO: article img con display block, width 100%, height auto, margin-bottom */
+article img { }
+
+/* TODO: #personajes article -> display inline-block, width 47%,
+   margin 0 1% 16px 1%, vertical-align top (2 por fila) */
+#personajes article { }
+
+/* ---------- 9. Chips (selectores de atributo) ---------- */
+/* TODO: .chip con display inline-block, padding, border, font-size, font-weight */
+.chip { }
+
+/* TODO: [data-type="capitulo"] con un color de fondo de la paleta */
+/* TODO: [data-type="personaje"] con otro color + font-style italic */
+/* TODO: [data-type="lugar"] con otro color + text-transform uppercase */
+.chip[data-type="capitulo"]  { }
+.chip[data-type="personaje"] { }
+.chip[data-type="lugar"]     { }
+
+/* ---------- 10. Botón .btn ---------- */
+/* TODO: .btn con display block, width 60%, margin 12px auto 0 auto,
+   padding en rem, background primario, color blanco, border,
+   font-size, font-family, text-align center, text-decoration none */
+.btn { }
+
+/* ---------- 11. Tabla ---------- */
+/* TODO: table con width 100%, border-collapse collapse, background y border */
+table { }
+
+/* TODO: caption alineado a la izquierda, en negrita, con padding */
+caption { }
+
+/* TODO: th, td con border, padding y text-align left */
+th, td { }
+
+/* TODO: thead th con fondo primario y color blanco */
+thead th { }
+
+/* TODO: pseudoclase :first-child -> td:first-child en negrita */
+td:first-child { }
+
+/* TODO: .par (filas pares) con otro color de fondo de la paleta */
+.par { }
+
+
+/* ---------- 12. Contacto: formulario y mapa lado a lado ---------- */
+/* TODO: .form-box y .map-frame con display inline-block, width 47%,
+   margin 0 1% y vertical-align top */
+.form-box,
+.map-frame { }
+
+/* TODO: fieldset con background superficie, border primario, padding, margin 0 */
+fieldset { }
+
+/* TODO: legend con fondo acento, color texto, font-weight, padding, border */
+legend { }
+
+/* TODO: label con display block, márgenes y color de la paleta */
+label { }
+
+/* TODO: .grupo con margen y font-weight */
+.grupo { }
+
+/* TODO: selectores de atributo para los campos:
+   input[type="text"], input[type="password"], select, textarea
+   -> display block, width 100%, padding, background fondo, color texto,
+      border, font-family inherit, font-size */
+input[type="text"],
+input[type="password"],
+select,
+textarea { }
+
+/* TODO: input[type="submit"], input[type="reset"] con cursor pointer */
+/* TODO: input[type="reset"] con background superficie y color primario */
+input[type="submit"],
+input[type="reset"] { }
+input[type="reset"] { }
+
