@@ -1,0 +1,122 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Estudio de Yoga — Presentación</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <header class="site-header">
+        <a href="#" class="brand" aria-label="Inicio">YōgaFluir</a>
+        <nav class="site-nav">
+            <a href="#inicio">Inicio</a>
+            <a href="#clases">Clases</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+        <form class="search" role="search">
+            <input type="search" placeholder="Buscar clase..." aria-label="Buscar" />
+        </form>
+    </header>
+
+    <section class="hero" id="inicio">
+        <h1>Respira, fluye y encuentra tu ritmo</h1>
+        <p>Clases para todos los niveles: desde suave a intensivo, mañana y tarde.</p>
+    </section>
+
+    <main class="layout">
+        <!-- Columna principal -->
+        <section id="clases" class="clases">
+            <article class="clase">
+                <div class="thumb" aria-hidden="true"></div>
+                <h3>Hatha Suave</h3>
+                <ul class="badges">
+                    <li class="badge" data-intensidad="suave">Suave</li>
+                    <li class="badge" data-intensidad="media">Respiración</li>
+                </ul>
+                <p class="horario">Lunes y Miércoles — 9:00</p>
+                <a class="btn" href="#" aria-label="Reservar Hatha Suave">Reservar</a>
+            </article>
+
+            <article class="clase">
+                <div class="thumb" aria-hidden="true"></div>
+                <h3>Vinyasa Flow</h3>
+                <ul class="badges">
+                    <li class="badge" data-intensidad="media">Media</li>
+                    <li class="badge" data-intensidad="alta">Cardio</li>
+                </ul>
+                <p class="horario">Martes y Jueves — 19:00</p>
+                <a class="btn" href="#">Reservar</a>
+            </article>
+
+            <article class="clase">
+                <div class="thumb" aria-hidden="true"></div>
+                <h3>Yin Restaurativo</h3>
+                <ul class="badges">
+                    <li class="badge" data-intensidad="suave">Suave</li>
+                </ul>
+                <p class="horario">Viernes — 18:00</p>
+                <a class="btn" href="#">Reservar</a>
+            </article>
+
+            <article class="clase">
+                <div class="thumb" aria-hidden="true"></div>
+                <h3>Ashtanga</h3>
+                <ul class="badges">
+                    <li class="badge" data-intensidad="alta">Alta</li>
+                </ul>
+                <p class="horario">Sábados — 10:30</p>
+                <a class="btn" href="#">Reservar</a>
+            </article>
+
+            <article class="clase">
+                <div class="thumb" aria-hidden="true"></div>
+                <h3>Power Yoga</h3>
+                <ul class="badges">
+                    <li class="badge" data-intensidad="alta">Alta</li>
+                    <li class="badge" data-intensidad="media">Fuerza</li>
+                </ul>
+                <p class="horario">Lunes — 20:00</p>
+                <a class="btn" href="#">Reservar</a>
+            </article>
+
+            <article class="clase">
+                <div class="thumb" aria-hidden="true"></div>
+                <h3>Yoga Prenatal</h3>
+                <ul class="badges">
+                    <li class="badge" data-intensidad="suave">Suave</li>
+                </ul>
+                <p class="horario">Miércoles — 12:00</p>
+                <a class="btn" href="#">Reservar</a>
+            </article>
+        </section>
+
+        <!-- Barra lateral -->
+        <aside class="aside-info">
+            <h2>Avisos</h2>
+            <ul>
+                <li>Puertas abiertas el primer sábado de cada mes.</li>
+                <li>Trae tu esterilla. Tenemos algunas de cortesía.</li>
+                <li>Llega 10 minutos antes para acomodarte.</li>
+            </ul>
+
+            <div class="boletin">
+                <h3>Suscríbete</h3>
+                <p>Recibe horarios y eventos.</p>
+                <form>
+                    <input type="email" placeholder="tu@email.com" aria-label="Email" />
+                    <button type="submit" class="btn">Quiero recibir</button>
+                </form>
+            </div>
+        </aside>
+    </main>
+
+    <footer class="site-footer" id="contacto">
+        <p>© 2025 YōgaFluir · C/ Serenidad, 108 · Valencia</p>
+    </footer>
+</body>
+
+</html>
